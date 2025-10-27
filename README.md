@@ -1,16 +1,87 @@
-# 🧩 Project Management Tool
+# 🧩 Intelsmru – Project Management App
 
-A full-stack web application for managing software projects, tasks, and users efficiently.  
-Built with **FastAPI (Python)** for the backend and **React.js** for the frontend, this tool helps teams stay organized and track progress in real time.
+## 📘 Overview
+**Intelsmru** is a full-stack **Project Management Application** designed to help teams and individuals organize, track, and manage their tasks efficiently.  
+Users can create projects, assign tasks, monitor progress, and collaborate in real-time through an intuitive interface.
 
 ---
 
-## 🚀 Features
+## 🌐 Live Links
+- **Frontend (Vercel):** [https://project-management-app-75yn.vercel.app/](https://project-management-app-75yn.vercel.app/)
+- **Backend (Render):** [https://project-management-app-nyci.onrender.com/](https://project-management-app-nyci.onrender.com/)
 
-- 👥 **User Management** — Supports Admin, Manager, and Developer roles  
-- 📁 **Project Management** — Create and manage multiple projects  
-- ✅ **Task Management** — Add, update, delete, and track tasks by status (To Do, In Progress, Done)  
-- 📊 **Dashboard Overview** — Visual summary of projects and task statistics  
-- 💾 **MySQL Database** — Reliable storage using SQLAlchemy ORM  
-- ⚡ **FastAPI Backend** — Lightweight and high-performance REST API  
-- 💻 **Modern React Frontend** — Clean, responsive UI for better user experience 
+---
+
+## ⚙️ Tech Stack
+
+### Frontend:
+- React.js  
+- HTML, CSS, JavaScript  
+- Axios for API requests  
+- React Router for navigation  
+
+### Backend:
+- FastAPI (Python Framework)  
+- MySQL Database  
+- SQLAlchemy ORM  
+- Pydantic for data validation  
+- Render for deployment  
+
+---
+
+## 🧠 Features
+✅ User Authentication (Signup/Login)  
+✅ Create, View, Edit, and Delete Projects  
+✅ Add and Manage Tasks within Projects  
+✅ Assign Team Members to Tasks  
+✅ View Task Status (Pending, In Progress, Completed)  
+✅ Responsive UI for all devices  
+✅ Real-time synchronization between frontend and backend  
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/smrutismaranikakandi/project-management-app.git
+```
+
+### 2. Frontend Setup
+```bash
+cd frontend
+npm install
+npm start
+```
+
+### 3. Backend Setup
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+### 4. Access the app
+Frontend → [http://localhost:3000](http://localhost:3000)  
+Backend Docs → [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
+---
+
+## 🧾 Developer Information
+**Name:** Smruti Smaranika Kandi  
+**Project Name:** Intelsmru – Project Management App  
+**Department:** MCA  
+**Role:** Full Stack Developer  
+
+---
+
+## 🗄️ Example Database Configuration (for reference)
+```python
+SQLALCHEMY_DATABASE_URL = "mysql+mysqlconnector://username:password@localhost:3306/intelsmru_db"
+```
+
+---
+
+## 📄 License
+This project is developed for academic and learning purposes.  
+All rights reserved © 2025 Smruti Smaranika Kandi.
