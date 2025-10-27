@@ -1,0 +1,115 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #f4f6f8, #e9eff5);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* ===== Container ===== */
+.container {
+  padding: 30px 50px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* ===== Headings ===== */
+h1, h2, h3 {
+  color: #007bff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+
+/* ===== Card ===== */
+.card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  margin: 20px 0;
+  padding: 20px 25px;
+  transition: all 0.3s ease;
+  border: 1px solid #e3e6eb;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== Form Inputs ===== */
+input, select, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 14px;
+  border: 1px solid #ccd3db;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 15px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+/* ===== Buttons ===== */
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* ===== Utility Classes ===== */
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+/* ===== Navbar (optional, if you link it) ===== */
+nav {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  padding: 12px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffdd57;
+}
